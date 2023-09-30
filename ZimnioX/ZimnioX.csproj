@@ -54,19 +54,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="SettingsPopup.xaml.cs">
-	    <DependentUpon>SettingsPopup.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="CryptoAsset.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ListOfCryptoAssets.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="SettingsPopup.xaml">
+	  <MauiXaml Update="Settings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

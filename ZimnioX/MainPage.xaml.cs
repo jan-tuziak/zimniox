@@ -16,10 +16,14 @@ namespace ZimnioX
             listOfCryptoAssets.AddNewCryptoAsset();
         }
 
-        private void ShowSettings(object sender, EventArgs e)
+        private void GeneratePdf(object sender, EventArgs e)
         {
-            var popup = new SettingsPopup();
-            this.ShowPopup(popup);
+
+        }
+
+        private void OpenSettings(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Settings());
         }
     }
 }

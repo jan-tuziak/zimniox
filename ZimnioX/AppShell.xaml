@@ -10,5 +10,9 @@
         Title="Kryptokasa.gov"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+        Title="Ustawienia"
+        ContentTemplate="{DataTemplate local:Settings}"
+        Route="Settings" />
 
 </Shell>
