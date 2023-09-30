@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ZimnioX"
              x:Class="ZimnioX.CryptoAsset">
     <VerticalStackLayout>
         <Label
@@ -9,20 +10,26 @@
             SemanticProperties.HeadingLevel="Level2"
             FontSize="Title"
             HorizontalOptions="Start" />
-        <Label
-            Text="Właściciel kryptoaktywa"
-            SemanticProperties.HeadingLevel="Level6"
-            HorizontalOptions="Start" />
-        <Entry Placeholder="Jan Kowalski" />
+        
         <Label
             Text="Nazwa kryptoaktywa"
             SemanticProperties.HeadingLevel="Level6"
             HorizontalOptions="Start" />
-        <Entry Placeholder="Bitcoin (BTC)" />
+        <Entry Placeholder="Bitcoin (BTC)" x:Name="cryptoName"/>
         <Label
             Text="Ilość kryptoaktywa"
             SemanticProperties.HeadingLevel="Level6"
             HorizontalOptions="Start" />
-        <Entry Placeholder="100" Keyboard="Numeric" TextChanged="NumericEntry_TextChanged"/>
+        <local:DecimalEntry Placeholder="100,00" Keyboard="Numeric" TextChanged="UpdateCryptoSum" x:Name="cryptoAmount" Style="{StaticResource EntryStyle}"/>
+        <Label
+            Text="Cena kryptoaktywa za 1 sztukę [PLN]"
+            SemanticProperties.HeadingLevel="Level6"
+            HorizontalOptions="Start" />
+        <local:DecimalEntry Placeholder="1000,00 PLN" Keyboard="Numeric" TextChanged="UpdateCryptoSum" x:Name="cryptoRate" Style="{StaticResource EntryStyle}"/>
+        <Label
+            Text="Suma dla kryptoaktywa: 0,00 PLN"
+            SemanticProperties.HeadingLevel="Level6"
+            HorizontalOptions="Start" 
+            x:Name="cryptoSum"/>
     </VerticalStackLayout>
 </ContentView>

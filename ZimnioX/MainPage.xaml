@@ -25,16 +25,22 @@
                     <BoxView HeightRequest="1" Color="Grey"/>
 
                     <Label
-                    Text="Organ Egzekuzyjny"
-                    SemanticProperties.HeadingLevel="Level6"
-                    HorizontalOptions="Start" />
-                    <Entry Placeholder="Naczelnik Urzędu Skarbowego w Pruszkowie" />
+                        Text="Organ Egzekuzyjny"
+                        SemanticProperties.HeadingLevel="Level6"
+                        HorizontalOptions="Start" />
+                    <Entry Placeholder="Naczelnik Urzędu Skarbowego w Pruszkowie" x:Name="institute"/>
 
                     <Label
-                    Text="Numer Sprawy"
-                    SemanticProperties.HeadingLevel="Level6"
-                    HorizontalOptions="Start" />
-                    <Entry />
+                        Text="Numer Sprawy"
+                        SemanticProperties.HeadingLevel="Level6"
+                        HorizontalOptions="Start" />
+                    <Entry x:Name="jobId"/>
+
+                    <Label
+                        Text="Właściciel kryptoaktywa"
+                        SemanticProperties.HeadingLevel="Level6"
+                        HorizontalOptions="Start" />
+                    <Entry Placeholder="Jan Kowalski" x:Name="owner"/>
 
                     <local:ListOfCryptoAssets />
 
