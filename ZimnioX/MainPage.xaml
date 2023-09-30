@@ -2,46 +2,56 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ZimnioX"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="ZimnioX.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center"
-            x:Name="container">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
-            <Label
-                Text="Organ Egzekuzyjny"
-                SemanticProperties.HeadingLevel="Level6"
-                HorizontalOptions="Start" />
-            <Entry Placeholder="Naczelnik Urzędu Skarbowego w Pruszkowie" />
+        <!-- Content for the left column -->
+        <ScrollView Grid.Column="0">
+            <StackLayout >
+                <VerticalStackLayout Grid.Column="0"
+                Spacing="20"
+                Padding="30,0"
+                VerticalOptions="Center"
+                x:Name="container">
 
-            <Label
-                Text="Numer Sprawy"
-                SemanticProperties.HeadingLevel="Level6"
-                HorizontalOptions="Start" />
-            <Entry />
+                    <Label Text="Dane" FontSize="Header"/>
+                    <BoxView HeightRequest="1" Color="Grey"/>
 
-            <local:ListOfCryptoAssets />
+                    <Label
+                    Text="Organ Egzekuzyjny"
+                    SemanticProperties.HeadingLevel="Level6"
+                    HorizontalOptions="Start" />
+                    <Entry Placeholder="Naczelnik Urzędu Skarbowego w Pruszkowie" />
 
-            <Button Text="Dodaj kryptoaktywo" Clicked="AddCustomControl_Clicked"/>
+                    <Label
+                    Text="Numer Sprawy"
+                    SemanticProperties.HeadingLevel="Level6"
+                    HorizontalOptions="Start" />
+                    <Entry />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+                    <local:ListOfCryptoAssets />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                    <Button Text="Dodaj kryptoaktywo" Clicked="AddCustomControl_Clicked"/>
 
-        </VerticalStackLayout>
-    </ScrollView>
+                </VerticalStackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+        <!-- Content for the right column -->
+        <ScrollView Grid.Column="1">
+            <StackLayout  Spacing="20">
+                <Label Text="Podsumowanie" FontSize="Header"/>
+                <BoxView HeightRequest="1" Color="Grey"/>
+
+                <Button Text="Ustawienia" Clicked="ShowSettings"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 
 </ContentPage>

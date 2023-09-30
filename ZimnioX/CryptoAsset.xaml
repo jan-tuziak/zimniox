@@ -4,6 +4,12 @@
              x:Class="ZimnioX.CryptoAsset">
     <VerticalStackLayout>
         <Label
+            x:Name="Title"
+            Text="Kryptoaktywo"
+            SemanticProperties.HeadingLevel="Level2"
+            FontSize="Title"
+            HorizontalOptions="Start" />
+        <Label
             Text="Właściciel kryptoaktywa"
             SemanticProperties.HeadingLevel="Level6"
             HorizontalOptions="Start" />

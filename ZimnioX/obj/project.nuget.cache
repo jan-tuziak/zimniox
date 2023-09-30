@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Tft36daNUQcoAT1Zyytb4N/oyycHUbqZUwmD4b+IuP3V5gZvT4v987EGC/9doOz8yEzhCElrPMB+ztQ+4ox4/w==",
+  "dgSpecHash": "p8K2x0rMeFLaeOHGjCES1ZxeKiAdqBDK7esj5RJJCim6bSlVDCuWAhTEVOQCSP6GsCcohVuJt4/jVOG7h3iKHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jantu\\source\\repos\\ZimnioX\\ZimnioX\\ZimnioX.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jantu\\.nuget\\packages\\communitytoolkit.maui\\6.0.0\\communitytoolkit.maui.6.0.0.nupkg.sha512",
+    "C:\\Users\\jantu\\.nuget\\packages\\communitytoolkit.maui.core\\6.0.0\\communitytoolkit.maui.core.6.0.0.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -19,6 +21,7 @@
     "C:\\Users\\jantu\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.92\\microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\jantu\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\jantu\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-30T14:27:48.186</Modified>
+      <Modified>2023-09-30T16:41:48.985</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-30T14:27:47.816</Modified>
+      <Modified>2023-09-30T16:39:10.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ZimnioX.runtimeconfig.json">
       <PackagePath>ZimnioX.runtimeconfig.json</PackagePath>
-      <Modified>2023-09-30T12:48:55.393</Modified>
+      <Modified>2023-09-30T16:36:19.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ZimnioX.dll">
       <PackagePath>ZimnioX.dll</PackagePath>
-      <Modified>2023-09-30T14:27:46.655</Modified>
+      <Modified>2023-09-30T16:41:47.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ZimnioX.exe</PackagePath>
-      <Modified>2023-09-30T14:27:46.685</Modified>
+      <Modified>2023-09-30T16:41:47.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ZimnioX.deps.json">
       <PackagePath>ZimnioX.deps.json</PackagePath>
-      <Modified>2023-09-30T14:25:53.867</Modified>
+      <Modified>2023-09-30T16:39:10.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -809,6 +809,14 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-06-09T20:10:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jantu\.nuget\packages\communitytoolkit.maui\6.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2023-09-26T07:50:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jantu\.nuget\packages\communitytoolkit.maui.core\6.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2023-09-26T07:50:04.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -913,6 +921,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jantu\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2022-10-18T16:18:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2023-05-31T20:12:36.000</Modified>
@@ -939,23 +951,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:40.624</Modified>
+      <Modified>2023-09-30T16:18:30.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:40.676</Modified>
+      <Modified>2023-09-30T16:18:30.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:40.739</Modified>
+      <Modified>2023-09-30T16:18:30.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:40.811</Modified>
+      <Modified>2023-09-30T16:18:30.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.067</Modified>
+      <Modified>2023-09-30T16:18:31.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -967,207 +979,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-09-30T12:48:41.119</Modified>
+      <Modified>2023-09-30T16:18:31.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.541</Modified>
+      <Modified>2023-09-30T16:18:31.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.551</Modified>
+      <Modified>2023-09-30T16:18:31.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.567</Modified>
+      <Modified>2023-09-30T16:18:31.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.603</Modified>
+      <Modified>2023-09-30T16:18:31.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.711</Modified>
+      <Modified>2023-09-30T16:18:31.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.227</Modified>
+      <Modified>2023-09-30T16:18:31.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.227</Modified>
+      <Modified>2023-09-30T16:18:31.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.253</Modified>
+      <Modified>2023-09-30T16:18:31.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.243</Modified>
+      <Modified>2023-09-30T16:18:31.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.243</Modified>
+      <Modified>2023-09-30T16:18:31.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.196</Modified>
+      <Modified>2023-09-30T16:18:31.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.196</Modified>
+      <Modified>2023-09-30T16:18:31.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.227</Modified>
+      <Modified>2023-09-30T16:18:31.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.206</Modified>
+      <Modified>2023-09-30T16:18:31.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.206</Modified>
+      <Modified>2023-09-30T16:18:31.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.129</Modified>
+      <Modified>2023-09-30T16:18:31.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.129</Modified>
+      <Modified>2023-09-30T16:18:31.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.145</Modified>
+      <Modified>2023-09-30T16:18:31.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.155</Modified>
+      <Modified>2023-09-30T16:18:31.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.155</Modified>
+      <Modified>2023-09-30T16:18:31.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.155</Modified>
+      <Modified>2023-09-30T16:18:31.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.170</Modified>
+      <Modified>2023-09-30T16:18:31.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.180</Modified>
+      <Modified>2023-09-30T16:18:31.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.170</Modified>
+      <Modified>2023-09-30T16:18:31.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.180</Modified>
+      <Modified>2023-09-30T16:18:31.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.346</Modified>
+      <Modified>2023-09-30T16:18:31.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.356</Modified>
+      <Modified>2023-09-30T16:18:31.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.366</Modified>
+      <Modified>2023-09-30T16:18:31.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.376</Modified>
+      <Modified>2023-09-30T16:18:31.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.402</Modified>
+      <Modified>2023-09-30T16:18:31.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.294</Modified>
+      <Modified>2023-09-30T16:18:31.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.304</Modified>
+      <Modified>2023-09-30T16:18:31.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.304</Modified>
+      <Modified>2023-09-30T16:18:31.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.320</Modified>
+      <Modified>2023-09-30T16:18:31.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.330</Modified>
+      <Modified>2023-09-30T16:18:31.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.268</Modified>
+      <Modified>2023-09-30T16:18:31.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.268</Modified>
+      <Modified>2023-09-30T16:18:31.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.268</Modified>
+      <Modified>2023-09-30T16:18:31.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.278</Modified>
+      <Modified>2023-09-30T16:18:31.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.294</Modified>
+      <Modified>2023-09-30T16:18:31.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.402</Modified>
+      <Modified>2023-09-30T16:18:31.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.418</Modified>
+      <Modified>2023-09-30T16:18:31.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.428</Modified>
+      <Modified>2023-09-30T16:18:31.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.454</Modified>
+      <Modified>2023-09-30T16:18:31.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.516</Modified>
+      <Modified>2023-09-30T16:18:31.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.196</Modified>
+      <Modified>2023-09-30T16:18:31.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.217</Modified>
+      <Modified>2023-09-30T16:18:31.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.243</Modified>
+      <Modified>2023-09-30T16:18:31.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.278</Modified>
+      <Modified>2023-09-30T16:18:31.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jantu\source\repos\ZimnioX\ZimnioX\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-09-30T12:48:41.356</Modified>
+      <Modified>2023-09-30T16:18:31.327</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
