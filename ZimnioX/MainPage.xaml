@@ -1,25 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ZimnioX"
              x:Class="ZimnioX.MainPage">
 
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
-            VerticalOptions="Center">
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+            VerticalOptions="Center"
+            x:Name="container">
 
             <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+                Text="Organ Egzekuzyjny"
+                SemanticProperties.HeadingLevel="Level6"
+                HorizontalOptions="Start" />
+            <Entry Placeholder="Naczelnik Urzędu Skarbowego w Pruszkowie" />
+
+            <Label
+                Text="Numer Sprawy"
+                SemanticProperties.HeadingLevel="Level6"
+                HorizontalOptions="Start" />
+            <Entry />
+
+            <local:ListOfCryptoAssets />
+
+            <Button Text="Dodaj kryptoaktywo" Clicked="AddCustomControl_Clicked"/>
 
             <Label
                 Text="Welcome to .NET Multi-platform App UI"
