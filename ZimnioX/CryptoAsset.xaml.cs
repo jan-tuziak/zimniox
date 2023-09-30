@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using ZimnioX.Models;
 
 namespace ZimnioX;
@@ -10,9 +11,21 @@ public partial class CryptoAsset : ContentView
 	public CryptoAsset()
 	{
 		InitializeComponent();
-	}
+        //var task = LoadCryptoDict();
+        //task.Wait();
+        //var dict = task.Result;
+        //var temp = 0;
+    }
 
-	public CryptoAssetModel GetModel()
+    private async Task<List<CryptoName>> LoadCryptoDict()
+    {
+        using var stream = await FileSystem.OpenAppPackageFileAsync("cryptoDict.json");
+        using var reader = new StreamReader(stream);
+        var contents = reader.ReadToEnd();
+        return JsonConvert.DeserializeObject<List<CryptoName>>(contents);
+    }
+
+    public CryptoAssetModel GetModel()
 	{
 		return new CryptoAssetModel(cryptoName.Text, cryptoAmountDbl, cryptoRateDbl, cryptoSumDbl);
 	}

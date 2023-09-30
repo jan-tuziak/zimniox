@@ -13,6 +13,22 @@ namespace ZimnioX
         {
             InitializeComponent();
             listOfCryptoAssets = container.Children.OfType<ListOfCryptoAssets>().FirstOrDefault();
+            listOfCryptoAssets.PropertyChanged += UpdateSum;
+        }
+
+        private void UpdateSum(object sender, PropertyChangedEventArgs e)
+        {
+            var data = listOfCryptoAssets.GetData();
+            try
+            {
+                var sum = Math.Truncate(data.Sum(x => x.Sum) * 100 / 100);
+                TotalSum.Text = string.Format("{0:N2}", sum) + " PLN";
+            } 
+            catch
+            {
+                TotalSum.Text = "0,00 PLN";
+            }
+
         }
 
         private void AddCustomControl_Clicked(object sender, EventArgs e)
@@ -42,6 +58,7 @@ namespace ZimnioX
             htmlContent += $"<h3>Data wygenerowania raportu: {allData.DateTime}</h3>";
             htmlContent += $"<p>Numer sprawy: {allData.JobId}</p>";
             htmlContent += $"<p>Właściciel kryptoaktywa: {allData.Owner}</p>";
+            htmlContent += $"<p>Szacunkowa średnia wartość kryptoaktyw: {TotalSum.Text}</p>";
 
             int index = 0;
             foreach(var asset in allData.CryptoAssets)
